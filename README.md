@@ -31,7 +31,7 @@ The dataset contains information on housing prices in different block groups in 
 ### 🚀 Running the Project
 To execute the model training and evaluation:
 ```bash
-python house_price_prediction_real_extended.py
+python main.py
 ```
 
 ## 📈 Model Training & Evaluation
@@ -49,6 +49,40 @@ python house_price_prediction_real_extended.py
 - **R² Score**
 - **Residual Analysis & Distribution**
 - **Actual vs Predicted Value Plot**
+
+### 4️⃣ Figures:
+- Correlation Matrix
+
+![Figure_1](https://github.com/user-attachments/assets/63e923e8-3ec7-4a99-8e55-a02b15fc6359)
+
+- Pair Plot (scatter matrix)
+
+![Figure_2](https://github.com/user-attachments/assets/1814a804-e6b2-4917-aed2-47f2b3b4f7ab)
+
+- Actual vs Predicted (Linear)
+
+![Figure_3](https://github.com/user-attachments/assets/34fccf19-ce9b-46aa-a57e-29bda7e941f2)
+
+- Residuals Distribution (Linear)
+
+![Figure_4](https://github.com/user-attachments/assets/069a2f92-e2cf-4ac7-b4a0-202b3d3ce8d1)
+
+- Actual vs Predicted (Ridge)
+
+![Figure_5](https://github.com/user-attachments/assets/8e0e69d6-436d-4daf-bedd-92286198f061)
+
+- Residuals Distribution (Ridge)
+
+![Figure_6](https://github.com/user-attachments/assets/33139843-bd3e-4544-8840-29376cdefac9)
+
+- Actual vs Predicted (Lasso)
+
+![Figure_7](https://github.com/user-attachments/assets/a1c036b4-f197-47bf-9e1a-fbe68d71da9a)
+
+- Residuals Distribution (Lasso)
+
+![Figure_8](https://github.com/user-attachments/assets/41646fdb-17f5-4afc-973f-f1c9a0087f3a)
+
 
 ## 🏡 House Valuation Example
 To predict the price of a new house, the model uses example inputs:
